@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8A08029349047C2F3AA2E6E /* Pods_TZDatePicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32772DBAF38FFA78FB3022C6 /* Pods_TZDatePicker_Example.framework */; };
+		DB73FAB71F97726400F529EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FAB61F97726400F529EC /* AppDelegate.swift */; };
+		DB73FAB91F97726400F529EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73FAB81F97726400F529EC /* ViewController.swift */; };
+		DB73FABE1F97726400F529EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB73FABD1F97726400F529EC /* Assets.xcassets */; };
+		DB73FAC11F97726400F529EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB73FABF1F97726400F529EC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EA1A3CF554B7CE017F88BF3 /* Pods-TZDatePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZDatePicker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TZDatePicker_Example/Pods-TZDatePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		32772DBAF38FFA78FB3022C6 /* Pods_TZDatePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TZDatePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D336716E5C7D6575A3AC6890 /* Pods-TZDatePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZDatePicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TZDatePicker_Example/Pods-TZDatePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DB73FAB31F97726400F529EC /* TZDatePicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TZDatePicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB73FAB61F97726400F529EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB73FAB81F97726400F529EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB73FABD1F97726400F529EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB73FAC01F97726400F529EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB73FAC21F97726400F529EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB73FAB01F97726400F529EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A08029349047C2F3AA2E6E /* Pods_TZDatePicker_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26E20A9B92FED8AF5952DC4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32772DBAF38FFA78FB3022C6 /* Pods_TZDatePicker_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEBCB832327C13F57556DA58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D336716E5C7D6575A3AC6890 /* Pods-TZDatePicker_Example.debug.xcconfig */,
+				1EA1A3CF554B7CE017F88BF3 /* Pods-TZDatePicker_Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB73FAAA1F97726400F529EC = {
+			isa = PBXGroup;
+			children = (
+				DB73FAB51F97726400F529EC /* TZDatePicker */,
+				DB73FAB41F97726400F529EC /* Products */,
+				CEBCB832327C13F57556DA58 /* Pods */,
+				26E20A9B92FED8AF5952DC4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB73FAB41F97726400F529EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB73FAB31F97726400F529EC /* TZDatePicker_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB73FAB51F97726400F529EC /* TZDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				DB73FAB61F97726400F529EC /* AppDelegate.swift */,
+				DB73FAB81F97726400F529EC /* ViewController.swift */,
+				DB73FABD1F97726400F529EC /* Assets.xcassets */,
+				DB73FABF1F97726400F529EC /* LaunchScreen.storyboard */,
+				DB73FAC21F97726400F529EC /* Info.plist */,
+			);
+			path = TZDatePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB73FAB21F97726400F529EC /* TZDatePicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB73FAC51F97726400F529EC /* Build configuration list for PBXNativeTarget "TZDatePicker_Example" */;
+			buildPhases = (
+				26FB0E23A56F4966C6714E7B /* [CP] Check Pods Manifest.lock */,
+				DB73FAAF1F97726400F529EC /* Sources */,
+				DB73FAB01F97726400F529EC /* Frameworks */,
+				DB73FAB11F97726400F529EC /* Resources */,
+				F4C96AF263DC82F115EBD529 /* [CP] Embed Pods Frameworks */,
+				144797F761D1EC3ADA5DC09F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TZDatePicker_Example;
+			productName = TZDatePicker;
+			productReference = DB73FAB31F97726400F529EC /* TZDatePicker_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB73FAAB1F97726400F529EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Tom van Zummeren";
+				TargetAttributes = {
+					DB73FAB21F97726400F529EC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DB73FAAE1F97726400F529EC /* Build configuration list for PBXProject "TZDatePicker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB73FAAA1F97726400F529EC;
+			productRefGroup = DB73FAB41F97726400F529EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB73FAB21F97726400F529EC /* TZDatePicker_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB73FAB11F97726400F529EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB73FAC11F97726400F529EC /* LaunchScreen.storyboard in Resources */,
+				DB73FABE1F97726400F529EC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		144797F761D1EC3ADA5DC09F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TZDatePicker_Example/Pods-TZDatePicker_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26FB0E23A56F4966C6714E7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TZDatePicker_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4C96AF263DC82F115EBD529 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TZDatePicker_Example/Pods-TZDatePicker_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TZDatePicker/TZDatePicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZDatePicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TZDatePicker_Example/Pods-TZDatePicker_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB73FAAF1F97726400F529EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB73FAB91F97726400F529EC /* ViewController.swift in Sources */,
+				DB73FAB71F97726400F529EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB73FABF1F97726400F529EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB73FAC01F97726400F529EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB73FAC31F97726400F529EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB73FAC41F97726400F529EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB73FAC61F97726400F529EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D336716E5C7D6575A3AC6890 /* Pods-TZDatePicker_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MJ9LLHNNJQ;
+				INFOPLIST_FILE = TZDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.tomvanzummeren.TZDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB73FAC71F97726400F529EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EA1A3CF554B7CE017F88BF3 /* Pods-TZDatePicker_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MJ9LLHNNJQ;
+				INFOPLIST_FILE = TZDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.tomvanzummeren.TZDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB73FAAE1F97726400F529EC /* Build configuration list for PBXProject "TZDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB73FAC31F97726400F529EC /* Debug */,
+				DB73FAC41F97726400F529EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB73FAC51F97726400F529EC /* Build configuration list for PBXNativeTarget "TZDatePicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB73FAC61F97726400F529EC /* Debug */,
+				DB73FAC71F97726400F529EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB73FAAB1F97726400F529EC /* Project object */;
+}
