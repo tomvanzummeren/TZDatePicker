@@ -17,8 +17,6 @@ public class TZDatePicker: UIControl {
         }
     }
     
-    private let pickerView: UIPickerView
-    
     public var onValueChanged: ((DateComponents) -> Void)?
     
     public var locale = Locale.current {
@@ -27,27 +25,29 @@ public class TZDatePicker: UIControl {
             pickerView.reloadAllComponents()
         }
     }
-    
+
+    private let pickerView: UIPickerView
+
     private var calendar = Calendar.current
-    
+
     private var monthSymbols = [String]()
-    
+
     private var monthComponent = 0
-    
+
     private var dayComponent = 1
 
     private var yearComponent = 2
-    
+
     private var currentYear = 1980
-    
+
     private var numberOfMonths: Int {
         return monthSymbols.count
     }
-    
+
     private let numberOfDays = 31
-    
+
     private let repeatCount = 1000
-    
+
     private var monthComponentWidth: CGFloat = 100
     
     public init(dateComponents: DateComponents) {
