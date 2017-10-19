@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "TZDatePicker"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "UIDatePicker with optional year"
   s.description      = <<-DESC
   This is a replacement for UIDatePicker, which doesn't support optional years. This date picker does. Optional years are used for birthdays for your contacts for example.

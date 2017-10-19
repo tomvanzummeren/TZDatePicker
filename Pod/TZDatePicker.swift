@@ -8,6 +8,9 @@ public class TZDatePicker: UIControl {
             if !dateComponents.isValidDate {
                 while !dateComponents.isValidDate {
                     if let day = dateComponents.day {
+                        if day < 1 {
+                            break
+                        }
                         dateComponents.day = day - 1
                     }
                 }
@@ -178,7 +181,17 @@ extension TZDatePicker: UIPickerViewDelegate {
             return NSAttributedString(string: monthSymbols[row % numberOfMonths], attributes: attributes)
         case dayComponent:
             let day = (row % numberOfDays) + 1
-            return NSAttributedString(string: "\(day)")
+
+            var testDateComponents = self.dateComponents
+            testDateComponents.day = day
+
+            if testDateComponents.isValidDate {
+                return NSAttributedString(string: "\(day)")
+            } else {
+                return NSAttributedString(string: "\(day)", attributes: [
+                    .foregroundColor: UIColor.gray
+                ])
+            }
         case yearComponent:
             let year = row + 1
             return NSAttributedString(string: year > currentYear ? "----" : "\(year)")
@@ -192,6 +205,7 @@ extension TZDatePicker: UIPickerViewDelegate {
         case monthComponent:
             let month = row % numberOfMonths + 1
             dateComponents.month = month
+            pickerView.reloadComponent(dayComponent)
         case dayComponent:
             let day = (row % numberOfDays) + 1
             dateComponents.day = day
